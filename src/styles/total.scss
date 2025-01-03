@@ -1,0 +1,36 @@
+.total-div {
+    width: max-content;
+    height: max-content;
+    padding: 36px 20px 36px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-direction: column;
+    border: 0.5px solid var(--grey-2);
+    gap: 20px;
+    div{
+        width: 314px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        h1{
+            color: var(--grey-4);
+            font-family: var(--font-family);
+            font-weight: var(--font-weight-1);
+            font-size: var(--font-size-3);
+        }
+        .price{
+            color: var(--color-primary);
+        }
+    }
+    p{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        color: var(--grey-3);
+        font-family: var(--font-family);
+        font-weight: var(--font-weigwht-2);
+        font-size: var(--font-size-4);
+    }
+}
